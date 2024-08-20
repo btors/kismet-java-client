@@ -9,8 +9,5 @@
         <module name="kismet-java-client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="kismet-java-client" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>

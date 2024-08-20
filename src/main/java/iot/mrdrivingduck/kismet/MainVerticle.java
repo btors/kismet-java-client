@@ -17,8 +17,8 @@ public class MainVerticle extends AbstractVerticle {
 
     KismetClient client = new KismetClient(
       vertx, 3000,
-      "192.168.2.106", 2501,
-      "username", "password");
+      "192.168.102.113", 2501,
+      "sepia", "12345678");
 
     KismetListener listener = new KismetListener() {
       @Override
